@@ -248,6 +248,7 @@ h6 {
     padding: 20px;
     background: #EAD0E9;
     border: 0;
+    border-radius: 6px;
 }
 .swiper-button-prev::after, .swiper-button-next::after{
     content: "";
@@ -513,7 +514,7 @@ h6 {
 .services-bg-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .services .section-title {
     text-align: center;
@@ -523,6 +524,7 @@ h6 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    direction: ltr;
 }
 
 .service-card {
@@ -684,7 +686,7 @@ h6 {
 /* testimonials start */
 .testimonials {
     position: relative;
-    padding: 96px 0;
+    padding: 120px 0;
     color: #fff;
     overflow: hidden;
 }
@@ -696,6 +698,7 @@ h6 {
 
 .testimonials-bg img {
     width: 100%;
+    height: 100%;
 }
 
 .testimonials-slider .swiper-slide {
@@ -783,6 +786,13 @@ h6 {
     }
 }
 /* testimonials end */
+.widget img {
+    width: 100%;
+}
+
+.widget {
+    padding: 80px 0;
+}
 
 /* footer start */
 .site-footer {
@@ -836,6 +846,7 @@ h6 {
     gap: 24px;
     flex-wrap: wrap;
     justify-content: center;
+    direction: ltr;
 }
 
 .footer-social-item {
@@ -843,6 +854,11 @@ h6 {
     align-items: center;
     gap: 8px;
     font-size: 14px;
+}
+
+.footer-social-label {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .footer-social-icon {
@@ -854,6 +870,10 @@ h6 {
     justify-content: center;
     background: linear-gradient(135deg, #DE59DA 0%, #AE4DAB 100%);
     box-shadow: 0 4px 12px rgba(222, 89, 218, 0.6);
+    transition: all 0.2s linear;
+}
+.footer-social-icon:hover{
+    transform: scale(1.1);
 }
 
 .footer-social-icon i {

@@ -38,4 +38,25 @@
 	.meditations-header {
         flex-direction: row-reverse;
     }
+
+	.coaching-details {
+        padding: 56px 0 32px;
+    }
+
+    .coaching-benefit-item {
+        padding: 10px 16px;
+    }
+
+    .coaching-benefit-text,
+    .coaching-pricing-line,
+    .coaching-pricing-or {
+        font-size: 16px;
+    }
+
+	.swiper-button-group {
+        position: static;
+        justify-content: center;
+        padding: 0;
+        margin-top: 12px;
+    }
 }

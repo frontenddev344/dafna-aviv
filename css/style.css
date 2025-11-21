@@ -767,7 +767,7 @@ h6 {
 
 
 .testimonials-nav-btn svg path {
-    stroke: #7c1fa1;
+    stroke: var(--black);
 }
 
 /* override generic swiper button styles inside testimonials */
@@ -777,14 +777,6 @@ h6 {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
-    .swiper-button-group {
-        position: static;
-        justify-content: center;
-        padding: 0;
-        margin-top: 12px;
-    }
-}
 /* testimonials end */
 .widget img {
     width: 100%;
@@ -983,4 +975,82 @@ h6 {
 .coaching-banner-content p {
     margin: 32px 0;
 }
+
+/* coaching details section */
+.coaching-details {
+    padding: 72px 0 40px;
+}
+
+.coaching-benefits-list {
+    max-width: 840px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.coaching-benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #ffffff;
+    background: linear-gradient(
+    -90deg,
+    rgba(198, 72, 140, 1) 0%,
+    rgba(160, 72, 198, 1) 100%
+  );
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 10px 12px 10px 12px;
+    box-shadow: 0px 16px 32px 0px rgba(86, 5, 101, 0.3);
+}
+
+.coaching-benefit-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    background: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #DE59DA;
+    flex-shrink: 0;
+}
+
+.coaching-benefit-icon i {
+    font-size: 20px;
+}
+
+.coaching-benefit-text {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.coaching-pricing {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.coaching-pricing-line {
+    font-size: 18px;
+    margin: 0 0 4px;
+}
+
+.coaching-pricing-or {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.coaching-pricing-actions {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
 /* coaching page end  */

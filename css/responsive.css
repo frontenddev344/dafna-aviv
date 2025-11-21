@@ -86,13 +86,9 @@
 
 @media screen and (max-width: 768px) {
 
-	.meditations-header {
-        flex-direction: row-reverse;
-    }
-
 	.coaching-details {
-        padding: 56px 0 32px;
-    }
+		padding: 32px 0 32px;
+	}
 
     .coaching-benefit-item {
         padding: 10px 16px;
@@ -130,6 +126,15 @@
 		height: 44px;
 		padding: 14px;
 	}
+	.services-bg-img img {
+		object-fit: cover;
+	}
+	.testimonials {
+		padding: 40px 0;
+	}
+	.testimonials-bg img {
+		object-fit: cover;
+	}
 }
 
 @media screen and (max-width: 575px) {
@@ -146,6 +151,9 @@
 	}
 	.service-card-content h3 {
 		font-size: 20px;
+	}
+	.testimonials-slider .swiper-slide {
+		height: 100%;
 	}
 }
 

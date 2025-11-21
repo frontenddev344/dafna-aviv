@@ -249,6 +249,7 @@ h6 {
     background: #EAD0E9;
     border: 0;
     border-radius: 6px;
+    margin: 0;
 }
 .swiper-button-prev::after, .swiper-button-next::after{
     content: "";
@@ -697,10 +698,7 @@ li.header-mobile-btn {
 }
 
 @media screen and (max-width: 768px) {
-    .meditations-header {
-        flex-direction: column-reverse;
-        align-items: flex-start;
-    }
+   
 }
 /* meditations end */
 
@@ -738,12 +736,13 @@ li.header-mobile-btn {
     text-align: right;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .testimonials-header .section-title {
     color: #fff;
+    margin: 0;
 }
-
 .testimonials-slider {
     position: relative;
     overflow: visible;

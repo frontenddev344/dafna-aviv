@@ -762,8 +762,8 @@ li.header-mobile-btn {
 }
 
 .testimonial-card p {
-    color: #4a3a5e;
-    font-size: 15px;
+    color: var(--black);
+    font-size: 18px;
     line-height: 1.7;
     margin: 0 0 16px;
 }

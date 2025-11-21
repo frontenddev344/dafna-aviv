@@ -1098,7 +1098,7 @@ li.header-mobile-btn {
 }
 
 .coaching-img-with-text-btm p {
-    font-size: 32px;
+    font-size: clamp(24px, 4vw, 32px);
     color: var(--theme);
     width: 100%;
     max-width: 560px;
